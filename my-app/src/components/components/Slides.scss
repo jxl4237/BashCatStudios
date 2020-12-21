@@ -1,0 +1,31 @@
+.slide {
+    background-color: #3f51b5;
+}
+
+.root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.cover {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.icon {
+    width: 50em;
+    height: 15em;
+}
